@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Simple page displaying random quotes">
+    <title>Random Quote Machine</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="quote-box">
+            <div class="quote-text">
+                <span id="text"></span>
+            </div>
+            <div class="quote-author">
+                - <span id="author"></span>
+            </div>
+            <div class="buttons">
+                <button class="button" id="new-quote">New quote</button>
+                <a class="button" id="tweet-quote" title="Tweet this quote!" target="_blank">
+                    <i class="fab fa-twitter"></i> Tweet
+                </a>
+            </div>
+        </div>
+        <div class="footer"> by <a href="https://pythonsway.it" target="_blank">Python's way</a></div>
+    </div>
+    <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
